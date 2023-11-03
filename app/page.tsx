@@ -1,10 +1,8 @@
 import styles from '@/app/ui/home.module.css';
-import { Lusitana } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
 import AcmeLogo from './ui/acme-logo';
-
-export const lusitana = Lusitana({ weight: '400', subsets: ['latin'] });
+import { lusitana } from './ui/fonts';
 
 export default function Page() {
   return (
